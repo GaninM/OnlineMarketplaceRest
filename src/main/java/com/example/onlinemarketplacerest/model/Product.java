@@ -1,11 +1,8 @@
 package com.example.onlinemarketplacerest.model;
 
-
 import lombok.AllArgsConstructor;
-
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 
 import javax.persistence.*;
 import java.sql.Date;
@@ -16,7 +13,6 @@ import java.sql.Date;
 @Entity
 @Table(name = "products")
 public class Product {
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
